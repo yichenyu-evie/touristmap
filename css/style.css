@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Big+Shoulders+Stencil+Text:wght@700&family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Oswald:wght@300&display=swap');
+
+
+/*bigpicture*/
+#map {
+  height: 100%;
+}
+
+#list {
+  height: 100%;
+}
+
+.segmented-control { text-align:center; }
+.segmented-control .ui-controlgroup { display:inline; margin:.2em 0px; }
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 75rem;
+  background-color: #242f3e;
+  color: #d59563;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+/*modal*/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #d59563;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+  color: #242f3e;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*css from boostraptemplate*/
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+/*navigation*/
+.navbar-brand{
+    padding-left: 4.2rem;
+    font-size: 2.4rem;
+    color: #d59563;
+}
+
+.navbar-brand:hover{
+    text-decoration: line-through;
+    color: #d59563;
+}
+
+.navbar {
+    background-color: #242f3e;
+}
+
+
+/*topcover*/
+.covertop{
+    background-image: url('../img/4x/4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.textoncover{
+   padding-top: 10rem;
+   padding-bottom: 10rem;
+   color: #d59563;
+   font-size: 10rem;
+}
+
+.covertext{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    color: #d59563;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+/*map view*/
+#list {
+    display: none;
+}
+
+.wintit {
+    color: #d59563;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+button:focus {
+    outline:0;
+}
+
+.winbut {
+    background-color: #242f3e;
+    border-color: transparent;
+    color: #d59563;
+    border-radius: 8px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 1.2rem;
+}
+.winbut:hover {
+    text-decoration: line-through;
+}
+
+.winimg {
+    width:400px; 
+    height:300px;
+    border-radius: 8px;
+}
+
+
+/*modal content*/
+#modaltitle {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#description {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+}
+
+#modalimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#modallink{
+    color: #242f3e;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+#modallink:hover {
+    text-decoration: line-through;
+}
+
+/*listview*/
+
+.listimg {
+    width: 100%;
+    height: auto;
+    padding-left: 2rem;
+    padding-top: 2.5rem
+}
+
+.listbut {
+    background-color: #d59563;
+    border-color: transparent;
+    color: #242f3e;
+    border-radius: 8px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 1.1rem;
+    margin-left: 10rem;
+}
+
+.listbut:hover {
+    text-decoration: line-through;
+}
+
+fieldset {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+label:hover {
+    text-decoration: line-through;
+}
+
+#list-switch {
+    margin-left: 5rem;
+}
+
+@media (min-width: 600px) {
+        .covertext {
+          padding-left: 8rem;
+          padding-right: 8rem;
+        }
+      }
+
+@media (min-width: 800px) {
+        .covertext {
+          padding-left: 12rem;
+          padding-right: 12rem;
+        }
+        .listimg {
+           width: 30rem;
+           height: 20rem;
+           padding-top: 0;
+        }
+      }
+
+@media (min-width: 1000px) {
+        .covertext {
+           padding-left: 20rem;
+           padding-right: 20rem;
+        }
+        .covertop {
+           background-image: url('../img/4x/5.png');
+        }
+        .listimg {
+           width: 30rem;
+           height: 20rem;
+           padding-top: 0;
+        }
+      }
